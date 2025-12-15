@@ -1,0 +1,29 @@
+# Core dependencies
+tensorflow>=2.10.0
+sionna>=0.14.0
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+scipy>=1.7.0
+
+# Geospatial and mapping
+osmnx>=1.2.0
+pyproj>=3.3.0
+shapely>=1.8.0
+
+# 3D mesh processing
+plyfile>=0.7.0
+trimesh>=3.20.0  # For building shape manipulation
+rtree>=1.0.0     # Spatial indexing for trimesh
+pyglet>=1.5.0    # For mesh visualization (optional)
+
+# Machine learning
+scikit-learn>=1.0.0
+
+# Visualization (optional)
+folium>=0.12.0
+seaborn>=0.11.0
+
+# Development (optional)
+jupyter>=1.0.0
+ipykernel>=6.0.0
