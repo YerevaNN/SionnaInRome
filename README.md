@@ -1,7 +1,5 @@
-# Sionna IEEE Paper Experiments - Quick Start Guide
-
-Guide will help you reproduce the experiments from https://arxiv.org/abs/2507.19653 with proper OSM building heights.
-
+# Guide will help you reproduce the experiments from https://arxiv.org/abs/2507.19653 with proper OSM building heights.
+ 
 ## Prerequisites
 
 ### 1. Install Dependencies
