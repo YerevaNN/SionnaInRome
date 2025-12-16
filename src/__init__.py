@@ -1,6 +1,3 @@
-"""
-Sionna IEEE experiment modules.
-"""
 from .simulation import (
     clear_scene, 
     lonlat_to_local, 
