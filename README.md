@@ -5,21 +5,19 @@ will help you reproduce the experiments from https://arxiv.org/abs/2507.19653 wi
 
 ### 1. Install Dependencies
 ```bash
-cd sionna_ieee
 pip install -r requirements.txt
 ```
 
 ### 2. Copy Dataset
 Copy the Rome dataset CSV file to the data directory:
 ```bash
-cp /path/to/rome_crop_knn_ready.csv sionna_ieee/data/
+cp /path/to/rome_crop_knn_ready.csv .../data/
 ```
 
 ## Running the Complete Workflow
 
 ### Step 1: Generate Scene with Proper Building Heights
 ```bash
-cd sionna_ieee
 python generate_scene.py
 ```
 
